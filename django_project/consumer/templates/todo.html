@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TOdo api</title>
+    </head>
+    <body>
+        <h1>Consuming To Do Api</h1>
+
+        {% for todo in todos %}
+            <h2>
+                {{todo.title}}
+
+            </h2>
+            <p>
+                {{todo.body}}
+
+            </p>
+          
+        {% endfor %}
+    </body>
+</html>
